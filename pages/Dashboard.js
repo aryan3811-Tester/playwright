@@ -14,6 +14,8 @@ class DashboardPage {
     await this.page.goto(process.env.dashboard); // Add this to .env if not already
   }
 
+
 }
+
 
 export { DashboardPage };

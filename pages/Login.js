@@ -27,8 +27,6 @@ class LoginPage {
   }
 
     async isLoginSuccessful() {
-        // Implement a method to check if login was successful
-        // This could be checking for a specific element that appears after login
         return await this.page.isVisible(".navbar-brand"); // Adjust selector as needed
     }
 }
